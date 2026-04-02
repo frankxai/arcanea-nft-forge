@@ -1,0 +1,17 @@
+{
+  "name": "@arcanea/nft-forge",
+  "version": "0.1.0",
+  "description": "AI-native NFT PFP collection engine with engineered taste, Sacred Gear system, and multi-tier rendering",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "generate:v5": "node scripts/nft-v5-sacred-gear.js",
+    "test": "vitest run"
+  },
+  "keywords": ["nft", "pfp", "generative-art", "sacred-gear", "arcanea", "gemini", "comfyui"],
+  "author": "Arcanea",
+  "license": "MIT"
+}
