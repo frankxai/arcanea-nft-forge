@@ -78,6 +78,15 @@ export {
   listStylePacks,
 } from './styles/arcanea-packs';
 
+// ─── Dynamic / Living NFTs ──────────────────────────────────
+export {
+  DynamicMetadataEngine,
+  EVOLUTION_TIERS,
+  generateAgentPersona,
+  type HolderState,
+  type EvolutionTier,
+} from './dynamic-metadata';
+
 // ─── Providers ──────────────────────────────────────────────
 export {
   GeminiImageProvider,
