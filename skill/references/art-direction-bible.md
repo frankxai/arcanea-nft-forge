@@ -78,16 +78,40 @@ Sacred Gear categories (one per character, this is the main trait):
 
 ## STRICT PROMPT RULES
 
-### Format Block (Include in EVERY prompt)
+### Format Block — PORTRAIT-PLUS (Default Crop)
 ```
 NFT PFP character portrait. Square 1:1.
-3/4 view, head turned 25 degrees. Head and shoulders ONLY.
-Frame cuts at mid-chest. Character fills 75% of frame vertically.
-Character's eye line at 40% from top of frame.
-Flat solid [COLOR] background, zero texture, zero gradient.
-NO hands visible. NO arms below elbow. NO action pose. Portrait only.
+3/4 view, head turned 25 degrees.
+Frame cuts at UPPER CHEST — Sacred Gear collar/pauldron visible,
+upper outfit visible. Character fills 72% of frame vertically.
+Character's eye line at 38% from top of frame.
+NO hands visible. NO arms below elbow.
+Flat solid [COLOR] background — DARK and MOODY (navy, charcoal, plum, forest).
 Small teal crystal mark on left temple — [RANK SHAPE], softly glowing.
 ```
+
+### Atmosphere Block (From Taste Profile — Include in EVERY prompt)
+```
+ATMOSPHERE: Rich, deep, moody. Controlled dramatic light with color
+temperature shift — warm amber on lit side, cool teal-purple on shadow side.
+One element softly glows besides the Starlight Mark. Everything else is
+material and form. NOT flat studio lighting.
+
+FACE: The hero of this image. 40% of visual attention. Defined bone structure.
+Eyes with clear catchlights and PERSONALITY — this character has a specific
+inner life. Subtle expression, not exaggerated. NOT a template smirk.
+
+RESTRAINT: Maximum 4-5 colors on character. One accent color. One glow
+source. If a trait doesn't earn its place, remove it.
+```
+
+### Crop Options (Portrait-Plus is DEFAULT)
+| Crop | When | Prompt |
+|------|------|--------|
+| **portrait-plus** (DEFAULT) | All collection pieces | Upper chest, collar/pauldron visible, no hands |
+| upperbody | Showcase pieces, rich gear display | Head to waist, hands can show |
+| showcase | 1/1 hero pieces only | Three-quarter body, full outfit |
+| ~~headshot~~ | REMOVED | — |
 
 ### Expression Block (Include in EVERY prompt)
 ```
